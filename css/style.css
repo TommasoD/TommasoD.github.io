@@ -345,11 +345,11 @@ a {
     text-decoration: underline;
 }
 
-.mobile-topbar {
+body .mobile-topbar {
     display: none; /* hidden on desktop */
 }
 
-.mobile-profile-block {
+body .mobile-profile-block {
     display: none; /* hidden on desktop */
 }
 
