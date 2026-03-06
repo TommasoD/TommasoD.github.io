@@ -345,11 +345,11 @@ a {
     text-decoration: underline;
 }
 
-body .mobile-topbar {
+.mobile-topbar {
     display: none; /* hidden on desktop */
 }
 
-body .mobile-profile-block {
+.mobile-profile-block {
     display: none; /* hidden on desktop */
 }
 
@@ -386,11 +386,11 @@ body .mobile-profile-block {
     }
 
     .social-links a {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
     }
 
     .social-links i {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .main-content {
@@ -420,8 +420,6 @@ body .mobile-profile-block {
 
     .sidebar {
         transform: translateX(-100%);
-        width: 280px;
-        padding: 5rem 1.5rem 2rem;
     }
 
     .sidebar.active {
@@ -464,9 +462,7 @@ body .mobile-profile-block {
     .project-name {
         font-size: 1.1rem;
     }
-}
-
-@media (max-width: 768px) {
+    
     .mobile-topbar {
         display: flex;
         align-items: center;
@@ -508,9 +504,7 @@ body .mobile-profile-block {
         background-color: var(--bg-light);
         color: var(--dark-blue);
     }
-}
 
-@media (max-width: 768px) {
     .mobile-profile-block {
         display: block;
     }
@@ -519,7 +513,11 @@ body .mobile-profile-block {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 1rem;
+        gap: 1.5rem;
+    }
+
+    .mobile-profile-block .social-links i{
+        font-size: 1.3rem;
     }
 
     .mobile-profile-block .social-links span {
