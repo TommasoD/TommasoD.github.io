@@ -462,10 +462,6 @@ a {
     display: none; /* hidden on desktop */
 }
 
-.mobile-topbar {
-    display: none;
-}
-
 @media (max-width: 768px) {
     .mobile-topbar {
         display: flex;
@@ -511,7 +507,7 @@ a {
 }
 
 .mobile-profile-block {
-    display: none;
+    display: none; /* hidden on desktop */
 }
 
 @media (max-width: 768px) {
