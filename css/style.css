@@ -345,6 +345,14 @@ a {
     text-decoration: underline;
 }
 
+.mobile-topbar {
+    display: none; /* hidden on desktop */
+}
+
+.mobile-profile-block {
+    display: none; /* hidden on desktop */
+}
+
 /* Responsive Design */
 
 /* Medium devices (tablets, 768px to 991px) */
@@ -458,10 +466,6 @@ a {
     }
 }
 
-.mobile-topbar {
-    display: none; /* hidden on desktop */
-}
-
 @media (max-width: 768px) {
     .mobile-topbar {
         display: flex;
@@ -504,10 +508,6 @@ a {
         background-color: var(--bg-light);
         color: var(--dark-blue);
     }
-}
-
-.mobile-profile-block {
-    display: none; /* hidden on desktop */
 }
 
 @media (max-width: 768px) {
