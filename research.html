@@ -9,10 +9,19 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Mobile Menu Toggle Button -->
-    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
-        <i class="fas fa-bars"></i>
-    </button>
+    <!-- Mobile Top Bar (all pages) -->
+    <div class="mobile-topbar" id="mobileTopbar">
+        <span class="mobile-topbar-name">
+            <a href="index.html">Tommaso Dolci</a>            
+        </span>
+        <nav class="mobile-topbar-nav">
+            <a href="about.html">About</a>
+            <a href="publications.html">Publications</a>
+            <a href="research.html">Research</a>
+            <a href="news.html">News</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
 
     <!-- Sidebar -->
     <aside class="sidebar" id="sidebar-container">
@@ -27,9 +36,9 @@
             <h2 class="section-title">Research Topics</h2>
             <ul>
                 <li><b>Responsible AI</b>, fairness, social bias, explainability, transparency</li>
-                <li><b>Large language models</b>, text embeddings, knowledge representations, semantics</li>
-                <li><b>Software engineering for AI</b>, responsible design, requirements, testing</li>
-                <li><b>Big data analytics</b>, data management, edge computing, federated learning</li>
+                <li><b>Large Language Models</b>, text embeddings, knowledge representations, semantics</li>
+                <li><b>Software Engineering for AI</b>, responsible design, requirements, testing</li>
+                <li><b>Big Data Analytics</b>, data management, edge computing, federated learning</li>
             </ul>
         </section>
 
@@ -37,11 +46,11 @@
         <section class="section">
             <h2 class="section-title">Research Vision</h2>
             <p>
-                My research vision is about achieving reliable and trustworthy AI for the social good, with a focus on LLMs and AI-based systems.
+                My research vision is about achieving reliable and <strong>trustworthy AI for the social good</strong>, with a focus on LLMs and AI-based systems.
                 My interests include social biases in language models from text embeddings to LLMs, fairness evaluation, and mitigation strategies.
             </p>
             <p>
-                Currently, I am researching strategies for reducing LLM hallucinations by knowledge graph integration as a mechanism for grounding
+                Currently, I am researching strategies for <strong>reducing LLM hallucinations</strong> by knowledge graph integration as a mechanism for grounding
                 model outputs and improving factual accuracy and consistency.
             </p>
             <p>

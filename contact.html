@@ -17,10 +17,19 @@
     </style>
 </head>
 <body>
-    <!-- Mobile Menu Toggle Button -->
-    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
-        <i class="fas fa-bars"></i>
-    </button>
+    <!-- Mobile Top Bar (all pages) -->
+    <div class="mobile-topbar" id="mobileTopbar">
+        <span class="mobile-topbar-name">
+            <a href="index.html">Tommaso Dolci</a>            
+        </span>
+        <nav class="mobile-topbar-nav">
+            <a href="about.html">About</a>
+            <a href="publications.html">Publications</a>
+            <a href="research.html">Research</a>
+            <a href="news.html">News</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
 
     <!-- Sidebar -->
     <aside class="sidebar" id="sidebar-container">
@@ -61,7 +70,6 @@
                     <p>
                         <strong><i class="fas fa-clock text-primary me-2"></i>Office Hours:</strong><br>
                         Mo-Fr, 9:00-17:00<br>
-                        <!-- <em class="text-muted">(or by appointment)</em> -->
                     </p>
                 </div>
             </div>
@@ -71,7 +79,7 @@
         <section class="section">
             <h2 class="section-title">Interested in Collaborating?</h2>
             <p>
-                I am always open to new collaborations and research opportunities!
+                I am always open to new <em>collaborations</em> and <em>research opportunities</em>!
                 If you are working on LLM factuality, explainability, fairness or other topics in responsible AI and/or data management, I would love to hear from you!
             </p>
         </section>

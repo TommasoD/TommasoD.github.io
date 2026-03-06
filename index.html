@@ -9,10 +9,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Mobile Top Bar (all pages) -->
+    <div class="mobile-topbar" id="mobileTopbar">
+        <span class="mobile-topbar-name">
+            <a href="index.html">Tommaso Dolci</a>            
+        </span>
+        <nav class="mobile-topbar-nav">
+            <a href="about.html">About</a>
+            <a href="publications.html">Publications</a>
+            <a href="research.html">Research</a>
+            <a href="news.html">News</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+
     <!-- Mobile Menu Toggle Button -->
-    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+    <!-- <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
         <i class="fas fa-bars"></i>
-    </button>
+    </button> -->
 
     <!-- Sidebar -->
     <aside class="sidebar" id="sidebar-container">
@@ -21,7 +35,39 @@
 
     <!-- Main Content -->
     <main class="main-content">
-        <!-- <h1 class="page-title">Welcome</h1> -->
+
+        <!-- Mobile Profile Block (homepage only) -->
+        <div class="mobile-profile-block">
+        <section class="section">
+                <div class="text-center">
+                    <a href="index.html">
+                        <img src="images/profile.jpg" alt="Tommaso Dolci" class="profile-photo">
+                    </a>
+                    <h3>Tommaso Dolci</h3>
+                    <p class="subtitle">
+                        PreDoc Researcher @TU Wien
+                    </p>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:tommaso.dolci@tuwien.ac.at">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://linkedin.com/in/tommasodolci" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=LtmIhawAAAAJ" target="_blank">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Scholar</span>
+                    </a>
+                    <a href="https://github.com/TommasoD" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+        </section>
+            </div>
 
         <!-- About Section (Brief) -->
         <section class="section">
