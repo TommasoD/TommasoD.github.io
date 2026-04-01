@@ -198,8 +198,8 @@ a {
 }
 
 /* Publication Styles */
-.publication-preview i {
-    padding-left: 0.5rem;
+.publication-preview a {
+    margin-left: 0.5rem;
 }
 
 .publication-item {
