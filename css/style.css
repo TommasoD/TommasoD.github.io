@@ -198,6 +198,10 @@ a {
 }
 
 /* Publication Styles */
+.publication-preview i {
+    padding-left: 0.5rem;
+}
+
 .publication-item {
     margin-bottom: 1.25rem;
     padding-bottom: 0.75rem;

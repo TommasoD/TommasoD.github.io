@@ -1,0 +1,91 @@
+:root {
+    --primary-blue: #1950c7;
+    --light-blue: #60a5fa;
+    --dark-blue: #0a298f;
+    --bg-light: #f8fafc;
+    --bg-white: #ffffff;
+    --text-dark: #1e293b;
+    --text-gray: #64748b;
+    --border-light: #e2e8f0;
+    --link-color: #1950c7;
+    --pre-bg: #ecf0f1ab;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-dark);
+    background-color: var(--bg-light);
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    color: var(--text-dark);
+    border-bottom: 3px solid var(--light-blue);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: var(--text-dark);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.abstract p {
+    text-align: justify;
+    font-style: italic;
+    font-size: 0.95em;
+    background-color: var(--bg-white);
+    border-left: 4px solid var(--light-blue);
+    padding: 15px 20px;
+    margin: 20px 0;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+pre {
+    background-color: var(--bg-white);
+    border-left: 4px solid var(--light-blue);
+    padding: 20px 15px 0 15px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+    color: var(--text-dark);
+}
+
+#bibtex-block {
+  cursor: pointer;
+  position: relative;
+  transition: background 0.2s;
+}
+#bibtex-block:hover {
+  background: #f0f0f0;
+}
+#bibtex-block.copied::after {
+  content: "Copied!";
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 0.8em;
+  color: #4caf50;
+  font-family: sans-serif;
+}
